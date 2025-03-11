@@ -1,6 +1,7 @@
 [package]
 name = "zyre-sys"
-version = "0.1.0"
+version = "0.1.1"
+edition = "2024"
 description = "Low-level bindings for the Zyre library."
 authors = ["Schoonology <michael.r.schoonmaker@gmail.com>"]
 repository = "https://github.com/Schoonology/rust-zyre-sys"
@@ -11,4 +12,5 @@ license = "MIT"
 build = "build.rs"
 
 [build-dependencies]
-bindgen = "0.20.0"
+bindgen = "0.71.1"
+
